@@ -12,6 +12,11 @@ print_with_delay() {
 }
 
 # Introduction animation
+echo ""
+echo ""
+print_with_delay "tuic-installer" 0.1
+echo ""
+echo ""
 
 # Check for and install required packages
 install_required_packages() {
